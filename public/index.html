@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>inbox</title>
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <canvas id="field"></canvas>
+  <div class="wrap">
+    <header>
+      <h1>inbox</h1>
+      <p>POST JSON to <span class="mono">/hook</span>. It lands here.</p>
+    </header>
+    <section class="panel">
+      <div class="row">
+        <button id="refresh" type="button">Refresh</button>
+        <button id="clear" class="ghost" type="button">Clear</button>
+      </div>
+      <div id="list"></div>
+    </section>
+  </div>
+  <script src="/field.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
