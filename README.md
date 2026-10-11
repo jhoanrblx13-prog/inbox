@@ -2,6 +2,8 @@
 
 Catches HTTP posts. Send JSON to `/hook` and the page lists the body and time. Keeps the last 100. Refresh is automatic.
 
+Demo: https://inbox-6507.onrender.com
+
 ## Run
 
 ```bat
